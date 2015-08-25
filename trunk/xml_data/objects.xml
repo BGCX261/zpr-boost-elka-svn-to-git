@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<objects>
+	<object type="car">
+		<id>WF-BIGONE</id>
+		
+		<parameters>
+			<acceleration>5</acceleration>
+			<weight>2000.0</weight>
+			<size>big</size>
+			<maxspeed>75.0</maxspeed>
+		</parameters>
+		
+		<track>
+			<point x="-100" y="150" />
+			<point x="50" y="150" />
+			<point x="50" y="50" />
+			<point x="133" y="266" />
+			<point x="166" y="133" />
+			<point x="250" y="133" />
+			<point x="250" y="66" />
+			<point x="166" y="66" />
+			<point x="166" y="0" />
+		</track>
+	</object>
+
+	<object type="car">
+		<id>PO-BIGY0</id>
+		
+		<parameters>
+			<acceleration>6</acceleration>
+			<weight>1700.0</weight>
+			<size>big</size>
+			<maxspeed>85.0</maxspeed>
+		</parameters>
+		
+		<track>
+			<point x="0" y="50" />
+			<point x="50" y="50" />
+			<point x="100" y="33" />
+			<point x="166" y="66" />
+			<point x="166" y="133" />
+			<point x="133" y="266" />
+		</track>
+	</object>
+	
+	<object type="car">
+		<id>WH-MRLIT</id>
+		
+		<parameters>
+			<acceleration>8</acceleration>
+			<weight>1200.0</weight>
+			<size>small</size>
+			<maxspeed>100.0</maxspeed>
+		</parameters>
+		
+		<track>
+			<point x="0" y="150" />
+			<point x="50" y="150" />
+			<point x="50" y="50" />
+			<point x="-50" y="50" />
+		</track>
+	</object>
+	
+	<object type="car">
+		<id>KN-SPRINT</id>
+		
+		<parameters>
+			<acceleration>10</acceleration>
+			<weight>1100.0</weight>
+			<size>small</size>
+			<maxspeed>130.0</maxspeed>
+		</parameters>
+		
+		<track>
+			<point x="210" y="133" />
+			<point x="166" y="133" />
+			<point x="133" y="266" />
+		</track>
+	</object>
+
+	<object type="walker">
+		<id>Jan Sprinter</id>
+		
+		<parameters>
+			<maxspeed>10.0</maxspeed>
+		</parameters>
+		
+		<track>
+			<point x="30" y="190" />
+			<point x="30" y="30" />
+			<point x="180" y="30" />
+			<point x="180" y="210" />
+		</track>
+	</object>
+
+	<object type="walker">
+		<id>Zbyszek Wolniak</id>
+		
+		<parameters>
+			<maxspeed>7.0</maxspeed>
+		</parameters>
+		
+		<track>
+			<point x="200" y="50" />
+			<point x="70" y="50" />
+			<point x="15" y="210" />
+		</track>
+	</object>
+</objects>

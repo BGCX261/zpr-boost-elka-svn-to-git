@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!-- szablon konfiguracji pojazdow i osob przemierzajacych miasto -->
+
+<objects>
+	<object type="car">
+		<id>WF-3281H</id>					<!-- rejestracja dla samochodow, nazwisko i imie dla pieszych -->
+		
+		<parameters>
+			<acceleration>3</acceleration>	<!-- przyspieszenie [m/s^2] -->
+			<weight>2000.0</weight>			<!-- kilogramy -->
+			<size>big</size>				<!-- rozmiar -->
+			<maxspeed>75.0</maxspeed>		<!-- predkosc maksymalna [km/h] -->
+		</parameters>
+		
+		<track>						<!-- trasa -->
+			<point x="1.0" y="1.0" />
+			<point x="2.0" y="3.0" />
+			<point x="5.0" y="4.0" />
+		</track>
+	</object>
+
+	<object type="walker">
+		<id>Jan Nowak</id>
+		
+		<parameters>
+			<maxspeed>5.0</maxspeed>		<!-- predkosc [km/h] -->
+		</parameters>
+		
+		<track>						<!-- trasa -->
+			<point x="1.0" y="1.0" />
+			<point x="2.0" y="3.0" />
+			<point x="5.0" y="4.0" />
+		</track>
+	</object>
+</objects>

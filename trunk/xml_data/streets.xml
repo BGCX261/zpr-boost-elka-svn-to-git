@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<map>
+	<nodes>
+		<node x="0" y="50">	0</node>
+		<node x="0" y="150">	1</node>
+		<node x="50" y="50">	2</node>
+		<node x="50" y="150">	3</node>
+		<node x="50" y="200">	4</node>
+		<node x="100" y="33">	5</node>
+		<node x="166" y="0">	6</node>
+		<node x="166" y="66">	7</node>
+		<node x="166" y="133">	8</node>
+		<node x="133" y="266">	9</node>
+		<node x="200" y="66">	10</node>
+		<node x="200" y="133">	11</node>
+	</nodes>
+
+	<edges>
+		<edge from="0" to="2" />
+		<edge from="1" to="3" />
+		<edge from="2" to="5" />
+		<edge from="2" to="9" />
+		<edge from="2" to="3" />
+		<edge from="3" to="4" />
+		<edge from="5" to="7" />
+		<edge from="6" to="7" />
+		<edge from="7" to="10" />
+		<edge from="7" to="8" />
+		<edge from="8" to="11" />
+		<edge from="8" to="9" />
+	</edges>
+</map>

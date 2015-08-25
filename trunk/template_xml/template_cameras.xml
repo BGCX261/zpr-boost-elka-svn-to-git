@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!-- szablon konfiguracji kamer w miescie -->
+
+<dispatcher>
+	<camera>
+		<id>0</id>					<!-- id kamery -->
+		<position x="50.0" y="23.7" />	<!-- polozenie kamery [m] -->
+		<direction>93.0</direction>		<!-- skierowanie kamery: kat [stopnie] (0 = wschod, 90 = poludnie, 180 = zachod, 270 = polnoc -->
+		<angle>20.0</angle> 			<!-- kat widzenia [stopnie] -->
+		<range>20.0</range> 			<!-- zasieg [m] -->
+		<precision>0.98</precision>		<!-- precyzja [%] -->
+	</camera>
+</dispatcher>

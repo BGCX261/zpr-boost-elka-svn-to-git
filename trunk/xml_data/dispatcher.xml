@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<dispatcher>
+	<camera>
+		<id>0</id>
+		<position x="40" y="40" />
+		<direction>45</direction>
+		<angle>70.0</angle>
+		<range>35.0</range>
+		<precision>0.80</precision>
+	</camera>
+	
+	<camera>
+		<id>1</id>
+		<position x="160" y="70" />
+		<direction>0</direction>
+		<angle>30.0</angle>
+		<range>10.0</range>
+		<precision>0.93</precision>
+	</camera>
+	
+	<camera>
+		<id>2</id>
+		<position x="80" y="150" />
+		<direction>315</direction>
+		<angle>15</angle>
+		<range>20.0</range>
+		<precision>0.98</precision>
+	</camera>
+	
+	<camera>
+		<id>3</id>
+		<position x="65" y="165" />
+		<direction>215</direction>
+		<angle>100</angle>
+		<range>40.0</range>
+		<precision>0.99</precision>
+	</camera>
+	
+	<camera>
+		<id>4</id>
+		<position x="100" y="50" />
+		<direction>270</direction>
+		<angle>10</angle>
+		<range>40.0</range>
+		<precision>0.75</precision>
+	</camera>
+	
+	<camera>
+		<id>5</id>
+		<position x="165" y="170" />
+		<direction>180</direction>
+		<angle>15</angle>
+		<range>20.0</range>
+		<precision>0.87</precision>
+	</camera>
+</dispatcher>
